@@ -122,7 +122,9 @@ This avoids repeated scraping for the same query.
 The hardest part was scraping the Companies House website because:
 
 * HTML structure is not always consistent
-* Some data is missing or incomplete
+* I have done only the core requirements part and have not done the opssible optional extensions
+* The database selection was hard because I wanted to use database PostreSQL and Docker as I have experience with them, but the bulding part caused error so I use H2 database, which stores everything without any installation.
+* Some data is missing or incomplete, because after getting results I have got missing parts in the data.
 * Parsing company details needs careful handling
 * I have difficulty with scraping because officers and persons list is not scraped correctly and even in the H2 database writing the query and selecting them nothing is printed.
 
