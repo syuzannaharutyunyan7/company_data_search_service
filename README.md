@@ -127,6 +127,12 @@ The hardest part was scraping the Companies House website because:
 * Some data is missing or incomplete, because after getting results I have got missing parts in the data.
 * Parsing company details needs careful handling
 * I have difficulty with scraping because officers and persons list is not scraped correctly and even in the H2 database writing the query and selecting them nothing is printed.
+* My program first get the user search then check cache and database if it is not found then it scrapes the websute convert the html into object and saves into database. The problem that I got that it was not getting anything, then I have noticed that officers and persons in the code are not scraped added this part to make them to loop over them,
+            for (Element el : doc.select("li")) {
+            String text = el.text().toLowerCase();
+  but no response, and I think that something in the logic is not correct. 
+
+         
 
 ---
 
