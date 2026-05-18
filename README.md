@@ -134,6 +134,5 @@ The hardest part was scraping the Companies House website because:
 * No cache expiration (data may become outdated)
 * No deduplication of results
 * No unit tests
-* Scraper can be made more stable
 
 ---
