@@ -27,9 +27,7 @@ http://localhost:8080
 
 ## H2 Database
 
-This project uses an in-memory H2 database.
-
-You can open the database console here:
+This project uses an in-memory H2 database and You can open the database console here:
 
 ```
 http://localhost:8080/h2-console
@@ -126,6 +124,7 @@ The hardest part was scraping the Companies House website because:
 * HTML structure is not always consistent
 * Some data is missing or incomplete
 * Parsing company details needs careful handling
+* I have drawbacks because officers and persons list is not scraped correctly and even in the H2 database writing the query and selecting them nothing is printed.
 
 ---
 
