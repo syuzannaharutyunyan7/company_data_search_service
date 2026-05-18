@@ -131,7 +131,8 @@ The hardest part was scraping the Companies House website because:
             for (Element el : doc.select("li")) {
             String text = el.text().toLowerCase();
   but no response, and I think that something in the logic is not correct. 
-The part I’m unsure about is whether the issue is in my parsing logic, or if the website is blocking HTML scraping, which prevents me from retrieving the correct information and I get unknown in fields.
+The part I’m unsure about is whether the issue is in my parsing logic or if the website is blocking HTML scraping, which prevents me from retrieving the correct information and causes the fields to appear as “unknown.” However, in my database, I have status columns showing values such as “unknown” and “closed,” so I assume it is working and no probel with "unknown".
+
 
 ---
 
