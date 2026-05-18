@@ -124,7 +124,7 @@ The hardest part was scraping the Companies House website because:
 * HTML structure is not always consistent
 * Some data is missing or incomplete
 * Parsing company details needs careful handling
-* I have drawbacks because officers and persons list is not scraped correctly and even in the H2 database writing the query and selecting them nothing is printed.
+* I have difficulty with scraping because officers and persons list is not scraped correctly and even in the H2 database writing the query and selecting them nothing is printed.
 
 ---
 
